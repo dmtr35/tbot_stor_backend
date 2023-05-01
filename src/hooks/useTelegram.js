@@ -20,7 +20,7 @@ export function useTelegram() {
         onClose,
         onToggleButton,
         tg,
-        user: tg.initDateUnsafe?.user,
+        user: tg.initDataUnsafe?.user,
     }
 
 }
